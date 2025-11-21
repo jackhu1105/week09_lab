@@ -1,0 +1,18 @@
+{
+  "info": { "name": "Week09 Signup API", "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json" },
+  "item": [
+    {
+      "name": "Signup POST",
+      "request": {
+        "method": "POST",
+        "header": [{"key": "Content-Type", "value": "application/json"}],
+        "body": { "mode": "raw", "raw": "{\"name\":\"Jack\",\"email\":\"jack@test.com\",\"password\":\"123\",\"studentId\":\"S001\"}" },
+        "url": "http://localhost:3000/api/signup"
+      }
+    },
+    {
+      "name": "Signup GET",
+      "request": { "method": "GET", "url": "http://localhost:3000/api/signup" }
+    }
+  ]
+}
